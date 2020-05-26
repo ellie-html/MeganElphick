@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <section class="entry">
+
+        <h1> Elphick Event <br> Ponies. </h1>
+        <img style="width: 100px; position: absolute; bottom: 80px; left: 50px;" src="https://bestanimations.com/Animals/Mammals/Horses/animated-horse-gif.gif">
+    </section>
+
+    <section class="main">
+
+        <div class="logo"> <h3> Elphick Event <br> Ponies.</h3> </div>
+        <div class="arrow">  <i class="fas fa-chevron-down arrow"></i></div>
+        <div  class="menu"onclick="openNav()" ><i class="fas fa-bars"></i> </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="sidenav-grid">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+                <div class="nav6 nav">  <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Latest</a>
+                    <a href="#">Services</a>
+                    <a href="#">Ponies</a>
+                    <a href="#">Contact</a></div>
+                
+              </div>
+              <div class="overlay-nav"></div>
+          </div>
+
+        <div class="grid-container">
+            <div class="home grid slide1">
+
+                <h2 class="welcome-h2">  Welcome. </h2>
+                <div class="title-info title-info-welcome">
+    
+                    <div class="line"></div>
+                    Hey my name is Megan and I produce ponies. <br>
+                  
+                </div>
+                <div class="overlay">  </div>
+            </div>
+            <div class="about grid slide2">
+                <h2>  About. </h2>
+                <div class="title-info">
+    
+                    <div class="line"></div>
+                    Find out more about me and what I do. <br> 
+                    <a> View More </a>
+                </div>
+                <div class="overlay">  </div>
+            </div>
+            <div class="latest grid slide3">
+
+                <h2>  Latest. </h2>
+                <div class="title-info">
+    
+                    <div class="line"></div>
+                   Catch up on all the latest news. <br> 
+                   <a> View More </a>
+                </div>
+                <div class="overlay">  </div>
+            </div>
+            <div class="meet grid " >
+                <h2>  Ponies. </h2>
+                <div class="title-info title-info2">
+    
+                    <div class="line"></div>
+                   Say hi and get to know all our ponies. <br> 
+                   <a> View More </a>
+                </div>
+                <div class="overlay">  </div>
+            </div>
+            <div class="services grid">
+                <h2>  Services. </h2>
+                <div class="title-info title-info2">
+    
+                    <div class="line"></div>
+                    Click to find out what services I provide.<br> 
+                    <a> View More </a>
+                </div>
+                <div class="overlay">  </div>
+            </div>
+            <div class="contact grid">
+                <h2>  Contact. </h2>
+                <div class="title-info title-info2">
+    
+                    <div class="line"></div>
+                   Get in contact today. <br> 
+                  <a> View More </a>
+                </div>
+                <div class="overlay">  </div>
+
+            </div>
+          </div>
+
+    </section>
+
+
+    <section class="footer"> Made by Ellie Baker</section>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "40vw";
+          document.getElementById("mySidenav").style.boxShadow = "-131px 0px 216px 537px rgba(0,0,0,0.5)";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0vw";
+          document.getElementById("mySidenav").style.boxShadow = "-0px 0px 0px 0px rgba(0,0,0,0.75)";
+        }
+        </script>
+    
+</body>
+</html>
